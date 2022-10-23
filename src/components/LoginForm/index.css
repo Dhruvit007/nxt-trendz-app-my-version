@@ -1,0 +1,116 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contain-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  max-width: 1100px;
+}
+@media screen and (max-width: 767px) {
+  .contain-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.form-image-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .form-image-container {
+    width: 70%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.form-image {
+  width: 90%;
+}
+@media screen and (max-width: 767px) {
+  .form-image {
+    margin-top: 20px;
+  }
+}
+.website-logo-lg {
+  width: 60%;
+  margin-top: 30px;
+}
+@media screen and (max-width: 767px) {
+  .website-logo-lg {
+    display: none;
+  }
+}
+.website-logo-sm {
+  width: 80%;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .website-logo-sm {
+    display: block;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 30%;
+  padding: 20px;
+}
+@media screen and (max-width: 767px) {
+  .form-container {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+.form-sub-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.label {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 500;
+}
+.input {
+  background-color: #e2e8f0;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  margin-bottom: 7px;
+}
+.password-input-field {
+  margin-bottom: 20px;
+}
+.login-btn {
+  padding: 8px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+.error-text {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 13px;
+}
